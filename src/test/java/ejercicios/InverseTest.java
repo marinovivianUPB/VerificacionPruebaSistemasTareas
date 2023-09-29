@@ -16,9 +16,13 @@ public class InverseTest {
                     "5432, 2345",
                     "4562, 2654",
                     "150, 051",
+                    "123, 321",
+                    "100, 001",
+                    "80, 08",
+                    "8,8",
                     "1, 1",
                     "-5, Not Valid",
-                    "-100, Not Valid"
+                    "-100, Not Valid",
             }
     )
     public void verifyNum(int num, String expectedMessage){
