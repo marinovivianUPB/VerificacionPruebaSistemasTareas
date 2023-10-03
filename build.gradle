@@ -16,7 +16,9 @@ dependencies {
 
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '5.5.0'
     testImplementation 'org.mockito:mockito-junit-jupiter:5.5.0'
-    testImplementation 'org.mockito:mockito-all:2.0.2-beta'
+    //testImplementation 'org.mockito:mockito-all:2.0.2-beta'
+
+    testImplementation 'org.mockito:mockito-inline:5.2.0'
 }
 
 test {

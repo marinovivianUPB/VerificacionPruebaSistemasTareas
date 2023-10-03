@@ -13,7 +13,7 @@ public class CalcAdvanced {
     public int getFactorial(int number){
         int f=1;
         for(int i=1; i<=number;i++){
-            f=calc.mult(f,i);
+            f=calc.times(f,i);
         }
         return f;
     }
