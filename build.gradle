@@ -19,6 +19,7 @@ dependencies {
     //testImplementation 'org.mockito:mockito-all:2.0.2-beta'
 
     testImplementation 'org.mockito:mockito-inline:5.2.0'
+    testImplementation 'junit:junit:4.13.1'
 }
 
 test {
